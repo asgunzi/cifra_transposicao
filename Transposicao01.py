@@ -39,8 +39,17 @@ def decifraTransposicao(mensagem,nlinhas):
         outstr += linha
     
     return outstr 
-  
 
+#-------------------------------------
+#Sidebar menu
+st.sidebar.title("Menu")
+
+st.sidebar.markdown("[Home](https://asgunzi.neocities.org)")
+
+st.sidebar.markdown("[Cifra de César](https://cesarsimples.streamlit.app/)")
+st.sidebar.markdown("[Cifra Polialfabética](https://polialfa01py-bdaxz4f6ehzi38ehcg8ndp.streamlit.app/)")
+st.sidebar.markdown("[Cifra Transposição](https://cifratransposicao.streamlit.app/)")
+#-------------------------------------
 
 
 st.image("https://ideiasesquecidas.com/wp-content/uploads/2024/07/forgottenmath.png")
